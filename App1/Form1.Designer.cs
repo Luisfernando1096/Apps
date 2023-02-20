@@ -32,6 +32,8 @@ namespace App1
             this.button1 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.button3 = new System.Windows.Forms.Button();
             this.Hombre = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -64,6 +66,23 @@ namespace App1
             this.button2.TabIndex = 2;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Location = new System.Drawing.Point(159, 24);
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(120, 64);
+            this.checkedListBox2.TabIndex = 3;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(329, 48);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Hombre
             // 
@@ -99,6 +118,9 @@ namespace App1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(437, 246);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.checkedListBox2);
             this.ClientSize = new System.Drawing.Size(437, 286);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
@@ -118,6 +140,8 @@ namespace App1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckedListBox checkedListBox2;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.CheckBox Hombre;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
