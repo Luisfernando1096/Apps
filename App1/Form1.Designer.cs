@@ -32,6 +32,9 @@ namespace App1
             this.button1 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.Hombre = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -62,17 +65,51 @@ namespace App1
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // Hombre
+            // 
+            this.Hombre.AutoSize = true;
+            this.Hombre.Location = new System.Drawing.Point(32, 229);
+            this.Hombre.Name = "Hombre";
+            this.Hombre.Size = new System.Drawing.Size(63, 17);
+            this.Hombre.TabIndex = 3;
+            this.Hombre.Text = "Hombre";
+            this.Hombre.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(94, 202);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(74, 24);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Genero";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(160, 229);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(52, 17);
+            this.checkBox1.TabIndex = 5;
+            this.checkBox1.Text = "Mujer";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 246);
+            this.ClientSize = new System.Drawing.Size(437, 286);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Hombre);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -81,6 +118,9 @@ namespace App1
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckBox Hombre;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
